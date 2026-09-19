@@ -1,0 +1,14 @@
+| Table              | Purpose                           |
+| ------------------ | --------------------------------- |
+| `organizations`    | Customer/tenant                   |
+| `schools`          | Schools under organization        |
+| `users`            | Login/user identity               |
+| `user_schools`     | User ? School                     |
+| `roles`            | Admin, Teacher, Accountant etc.   |
+| `user_roles`       | User ? Role ? School              |
+| `permissions`      | Available actions                 |
+| `role_permissions` | **Decides what each role can do** |
+| `applications`     | Application/product               |
+| `modules`          | Student, Teacher, Fees etc.       |
+| `pages`            | Actual UI pages                   |
+| `page_permissions` | Page ? Permission                 |
